@@ -123,8 +123,8 @@
   }
   .eachItem{
     padding: 10px;
-    background-color: rgb(48, 9, 120);
-    color: white;
+    background-color: #F9FAFB;
+    /* color: white; */
     width: 400px;
     height: 60px;
     display: flex;
@@ -154,8 +154,8 @@
   }
   .eachItem{
     padding: 10px;
-    background-color: rgb(48, 9, 120);
-    color: white;
+    background-color: #F9FAFB;
+    /* color: white; */
     width: 300px;
     height: 60px;
     display: flex;
@@ -186,8 +186,8 @@
   }
   .eachItem{
     padding: 10px;
-    background-color: rgb(48, 9, 120);
-    color: white;
+    background-color: #F9FAFB;
+    /* color: white; */
     width: 250px;
     height: 60px;
     display: flex;
