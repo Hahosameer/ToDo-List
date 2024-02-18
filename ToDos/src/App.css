@@ -1,0 +1,206 @@
+*{
+  padding: 0;margin: 0;box-sizing: border-box;
+}
+
+#element{
+  text-transform: capitalize;
+}
+.heading{
+  text-align: center;
+  background-color: black;
+  color: white;
+  min-width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+.main-div{
+  background-color:red;
+  min-width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+ 
+}
+.child-div{
+  background-color: white;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 20px;
+}
+.child-div img{
+  width: 200px;
+  height: 200px;
+}
+.addItem{
+  background-color: white;
+  width: 500px;
+  height: 50px;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  border-radius: 5px;
+}
+
+.addItem input{
+  border: none;
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+  outline: 0;
+  background-color: #F9FAFB;
+  border-radius: 5px;
+}
+.addItem button{
+  height: 100%;
+  width: 100px;
+ 
+}
+
+.showItem{
+  margin-top: 10px ;
+}
+.eachItem{
+  padding: 10px;
+  background-color: #F9FAFB;
+  /* color: white; */
+  width: 500px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  margin: 10px;
+  border-radius: 5px;
+}
+.eachItem i{
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 50%;
+  border:  1px solid black;
+  padding: 5px;
+}
+.eachItem .delete:hover{
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.edit:hover{
+  color: white;
+  background-color: black;
+
+
+}
+
+.removeAll{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.removeAll:hover{
+  background-color: rgb(67, 66, 66);
+}
+
+
+
+@media (max-width: 533px) {
+  .child-div{
+    padding: 0 10px;
+  }
+  .addItem{
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .eachItem{
+    padding: 10px;
+    background-color: rgb(48, 9, 120);
+    color: white;
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .addItem button{
+    width: 100px;
+    /* padding: 10px 30px; */
+  }
+}
+@media (max-width: 435px) {
+  .child-div{
+    padding: 0 10px;
+  }
+  .addItem{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .eachItem{
+    padding: 10px;
+    background-color: rgb(48, 9, 120);
+    color: white;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .addItem button{
+    width: 100px;
+    font-size: 15px;
+    /* padding: 10px 30px; */
+  }
+}
+@media (max-width: 333px) {
+  .child-div{
+    padding: 0 10px;
+  }
+  .addItem{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .eachItem{
+    padding: 10px;
+    background-color: rgb(48, 9, 120);
+    color: white;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  .addItem button{
+    width: 100px;
+    font-size: 13px;
+    /* padding: 10px 30px; */
+  }
+}
